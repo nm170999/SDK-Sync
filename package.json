@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "displayName": "MGIF SDKs",
   "description": "SDKs for MGIF.",
-  "unity": "2022.3"
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.services.levelplay": "9.0.1"
+  }
 }
