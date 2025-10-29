@@ -5,6 +5,7 @@
   "description": "SDKs for MGIF.",
   "unity": "2022.3",
   "dependencies": {
+    "com.unity.services.core": "1.15.1",
     "com.unity.services.levelplay": "9.0.1"
   }
 }
