@@ -1,0 +1,12 @@
+{
+  "name": "com.mgif.sdks",
+  "version": "1.0.0",
+  "displayName": "MGIF SDK",
+  "description": "A simple Unity package example.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Minh",
+    "email": "you@example.com",
+    "url": "https://yourwebsite.com"
+  }
+}
