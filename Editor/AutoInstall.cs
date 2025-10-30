@@ -62,7 +62,7 @@ public static class SDKSyncAutoInstaller
 
     private static void RunInstaller(bool force, HashSet<string> installedNames = null)
     {
-        var pkgInfo = UnityEditor.PackageManager.PackageInfo.FindForPackageName(com.mgif.sdks);
+        var pkgInfo = UnityEditor.PackageManager.PackageInfo.FindForPackageName("com.mgif.sdks");
         if (pkgInfo == null)
         {
             Debug.LogWarning($"[SDK-Sync] Cannot find package 'com.mgif.sdks'.");
