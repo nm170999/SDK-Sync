@@ -14,7 +14,7 @@ public static class SDKSyncAutoInstaller
     private const string PrefKeyRan = "SDKSyncAutoInstaller_RanOnce";
 
     // Tên package của bạn trong package.json ("name")
-    private const string ThisPackageName = "com.yourorg.sdk-sync";
+    private const string ThisPackageName = "com.mgif.sdks";
 
     static SDKSyncAutoInstaller()
     {
@@ -62,10 +62,10 @@ public static class SDKSyncAutoInstaller
 
     private static void RunInstaller(bool force, HashSet<string> installedNames = null)
     {
-        var pkgInfo = UnityEditor.PackageManager.PackageInfo.FindForPackageName("com.mgif.sdks");
+        var pkgInfo = UnityEditor.PackageManager.PackageInfo.FindForPackageName(ThisPackageName);
         if (pkgInfo == null)
         {
-            Debug.LogWarning($"[SDK-Sync] Cannot find package 'com.mgif.sdks'.");
+            Debug.LogWarning($"[SDK-Sync] Cannot find package '{ThisPackageName}.");
             return;
         }
 
