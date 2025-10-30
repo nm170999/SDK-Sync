@@ -1,1 +1,2 @@
 com.unity.textmeshpro@3.0.6
+com.unity.services.levelplay@9.0.1
